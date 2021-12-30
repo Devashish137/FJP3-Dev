@@ -1,0 +1,91 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+header>h1{
+    font-weight:bold;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 2rem;
+    
+}
+nav{
+    
+    position: relative;
+    justify-content: space-between;
+    top: 1rem;
+    right: 2rem;
+    width: 25rem;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    border: 1px solid #4CAF50;
+    border-radius: 2vh;
+    padding: 0.5rem;
+
+}
+li:hover{
+    background-color:darkolivegreen;
+    color: white;
+}
+.showCase_img{
+
+    width: 95vw;
+    height: 80vh;
+    margin: 1rem;
+   
+    border-radius: 8vh;
+    -webkit-mask-image: radial-gradient(circle, black 25%, rgba(0, 0, 0, 0.5) 50%);
+  mask-image: radial-gradient(circle, black 25%, rgba(0, 0, 0, 0.5) 50%);
+    
+}
+article{
+    display: flex;
+    margin: 1.5rem;
+}
+.container{
+    text-align:center;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    
+    
+}
+.container:hover{
+    border-style: groove;
+    background-color: black;
+    color: white;
+    border-radius: 5vh;
+    
+}
+h1{
+    font-weight: normal;
+}
+footer{
+    background-color: black;
+    color: beige;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:white;
+    
+    
+}
